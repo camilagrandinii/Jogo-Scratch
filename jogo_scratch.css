@@ -1,3 +1,4 @@
+
 /*Main*/
 main {
   background-color: rgb(252, 237, 244);
@@ -89,20 +90,21 @@ max-width: 80%;
 .desenvolvedora1>p{
   text-align: center;
 }
-.desenvolvedora1>img{
-margin-left: 37%;
-}
 div.desenv1_e_2 > section {
   background-color: rgb(255, 173, 186);
-  padding: 34px;
+  padding: 71px;
+  max-height: 340px;
   border-radius: 20px;
   max-width: 33%;
-  margin: ();
+}
+.desenvolvedora1 h3{
+  text-align: center;
 }
 .img_desenv {
   max-width: 150px;
   max-height: 320px;
   border-radius: 15px;
+  margin-left: 30%;
 }
 /* Fim Desenvolvedoras do Projeto */
 
