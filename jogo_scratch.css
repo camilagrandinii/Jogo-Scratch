@@ -160,7 +160,7 @@ label i {
   .menu{
     position: fixed;
     align-items: center;
-    top: -18px;
+    top: -16px;
     left: 0px;
     background: rgba(252, 237, 244, 0.8);
     width:100%;
