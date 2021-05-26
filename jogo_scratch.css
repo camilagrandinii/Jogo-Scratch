@@ -8,10 +8,6 @@ main {
 /* Fim Main */
 
 /* Navigation */
-*{
-  background-color: rgb(255, 223, 238);
-  z-index: 0.5;
-}
 header {
   height: 50%;
 }
