@@ -8,6 +8,10 @@ main {
 /* Fim Main */
 
 /* Navigation */
+*{
+  background-color: rgb(255, 223, 238);
+  z-index: 0.5;
+}
 header {
   height: 50%;
 }
@@ -130,7 +134,7 @@ div.desenv1_e_2 > section {
 @media screen and (max-width: 1100px) {
   div.instru_e_notas > section,
   div.desenv1_e_2 > section {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     padding-bottom: 91px;
     max-width: 64%;
   }
@@ -228,6 +232,7 @@ label i {
 /*PARTE SOBRE CSS*/
 .divulgacao_e_explicacao {
   padding: 30px;
+  margin-top: -40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
