@@ -48,10 +48,11 @@ ul a {
 
 /* Instruções e Créditos */
 .instru_e_notas {
-  padding: 30px;
+  padding: 26px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: -47px;
 }
 div.instru_e_notas > section {
   background-color: rgb(255, 173, 186);
@@ -130,7 +131,7 @@ div.desenv1_e_2 > section {
 @media screen and (max-width: 1100px) {
   div.instru_e_notas > section,
   div.desenv1_e_2 > section {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     padding-bottom: 91px;
     max-width: 64%;
   }
