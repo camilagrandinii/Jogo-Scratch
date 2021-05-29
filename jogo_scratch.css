@@ -8,8 +8,8 @@ main {
 /* Fim Main */
 
 /* Navigation */
-html {
-  background-color: rgb(255, 223, 238);
+body {
+ margin: 0px;
 }
 .navigation {
   display: flex;
@@ -189,6 +189,9 @@ label i {
     display: none;
   }
   .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: fixed;
     align-items: center;
     top: -16px;
@@ -206,7 +209,12 @@ label i {
     text-align: center;
     width: 200px;
     height: 30px;
+    margin-top: 20px;
     padding: 20px;
+    margin-left: -16%;
+  }
+  header ul li {
+    margin-left: 0px!important;
   }
   ul a:hover {
     color: rgba(252, 237, 244, 0.8);
