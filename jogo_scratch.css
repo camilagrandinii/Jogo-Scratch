@@ -4,13 +4,12 @@ main {
   background-color: rgb(252, 237, 244);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
-/* Fim Main */
-
-/* Navigation */
 body {
  margin: 0px;
 }
+/* Fim Main */
+
+/* Navigation */
 .navigation {
   display: flex;
   justify-content: center;
@@ -258,5 +257,12 @@ label i {
 .video_divul{
   max-width: 600px;
   max-height: 370px;
+}
+section.instrucoes p a{
+  color: rgb(247, 107, 130);
+  text-decoration: none;
+}
+section.instrucoes p a:hover{
+  color: rgb(255, 223, 238);
 }
 /*FIM PARTE SOBRE CSS*/
