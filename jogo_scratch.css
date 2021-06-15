@@ -98,6 +98,7 @@ div.desenv1_e_2 > section {
   max-height: 340px;
   border-radius: 20px;
   max-width: 33%;
+  padding-bottom: 76px;
 }
 .desenvolvedora1 h3{
   text-align: center;
@@ -135,7 +136,7 @@ div.desenv1_e_2 > section {
   div.instru_e_notas > section,
   div.desenv1_e_2 > section {
     margin-bottom: 25px;
-    padding-bottom: 91px;
+    padding-bottom: 107px;
     max-width: 64%;
   }
   .instru_e_notas{
@@ -264,5 +265,35 @@ section.instrucoes p a{
 }
 section.instrucoes p a:hover{
   color: rgb(255, 223, 238);
+}
+.sobre_ganhadores {
+  padding: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: -47px;
+}
+.sobre_ganhadores_tudo {
+  margin-top: 54px;
+}
+.sobre_ganhadores > section {
+  background-color: rgb(255, 173, 186);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 33%;
+  margin: 18px;
+}
+.ganhadores{
+  color: rgb(255, 173, 186);
+  text-align: center;
+  margin-bottom: -6px;
+}
+.img_ganhadores {
+  width: 250px;
+  height: 148px;
+  border-radius: 11px;
+}
+h2.premio{
+  color:rgb(247, 107, 130);
 }
 /*FIM PARTE SOBRE CSS*/
