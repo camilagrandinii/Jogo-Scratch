@@ -66,6 +66,13 @@ section.instrucoes h2{
 .notas>h2{
   text-align: center;
 }
+section.notas p a{
+  color: rgb(247, 107, 130);
+  text-decoration: none;
+}
+section.notas p a:hover{
+  color: rgb(255, 223, 238);
+}
 /* Fim Instruções e Créditos */
 
 /* Scratch Jogo */
