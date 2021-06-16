@@ -53,11 +53,18 @@ ul a {
   justify-content: space-around;
   margin-bottom: -47px;
 }
+
 div.instru_e_notas > section {
   background-color: rgb(255, 173, 186);
   padding: 50px;
   border-radius: 20px;
   max-width: 33%;
+}
+section.instrucoes h2{
+  text-align: center;
+}
+.notas>h2{
+  text-align: center;
 }
 /* Fim Instruções e Créditos */
 
@@ -132,6 +139,17 @@ div.desenv1_e_2 > section {
     width: 100%;
   }
 }
+@media screen and (min-width: 1377px) and (max-width: 1600px){
+  .img_ganhadores {
+    margin-left: 24%!important;
+  }
+}
+@media screen and (min-width: 1080px) and (max-width: 1376px){
+  .img_ganhadores {
+    margin-left: 17%!important;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   div.instru_e_notas > section,
   div.desenv1_e_2 > section {
@@ -143,14 +161,31 @@ div.desenv1_e_2 > section {
     margin-bottom: -66px;
   }
 }
-@media screen and (max-width: 411px){
-  .img_desenv {
-    margin: 0 11%;
+@media screen and (min-width: 879px) and (max-width: 1079px){
+  .img_ganhadores {
+    margin-left: 9%!important;
   }
-  .video_divul{
-    width: 327px;
-    height: 211px;
+}
+@media screen and (min-width: 723px) and (max-width: 878px){
+  .img_ganhadores {
+    margin-left: 1%!important;
   }
+}
+@media screen and (max-width: 721px){
+  .img_ganhadores {
+    margin-left: 19%!important;
+    max-width: 133%;
+  }
+  .sobre_ganhadores>section{
+    max-width: 68%!important;
+  }
+}
+@media screen and (max-width: 480px){
+  .img_ganhadores {
+    margin-left: 7%!important;
+    max-width: 100%;
+  }
+
 }
 @media screen and (max-width: 899px) and (min-width: 412px){
   .img_desenv {
@@ -159,6 +194,25 @@ div.desenv1_e_2 > section {
   .video_divul{
     width: 327px;
     height: 211px;
+  }
+  @media screen and (min-width: 555px) and (max-width: 650px){
+  .img_ganhadores {
+    margin-left: 17%!important;
+  }
+}
+}@media screen and (max-width: 411px){
+  .img_desenv {
+    margin: 0 11%;
+  }
+  .divulgacao>iframe, .explicacao>iframe {
+    max-width: 100%;
+  }
+  .video_divul{
+    height: 170px;
+  }
+  div.instru_e_notas > section,
+  div.desenv1_e_2 > section {
+    padding-bottom: 199px;
   }
 }
 /* Media Queries */
@@ -292,6 +346,7 @@ section.instrucoes p a:hover{
   width: 250px;
   height: 148px;
   border-radius: 11px;
+  margin-left: 28%;
 }
 h2.premio{
   color:rgb(247, 107, 130);
