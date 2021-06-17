@@ -66,11 +66,11 @@ section.instrucoes h2{
 .notas>h2{
   text-align: center;
 }
-section.notas p a{
+section.desenvolvedora1 p a{
   color: rgb(247, 107, 130);
   text-decoration: none;
 }
-section.notas p a:hover{
+section.desenvolvedora1 p a:hover{
   color: rgb(255, 223, 238);
 }
 /* Fim Instruções e Créditos */
@@ -90,6 +90,9 @@ max-width: 80%;
 /* Fim Scratch Jogo */
 
 /* Desenvolvedoras do Projeto */
+.desenvolvedoras{
+  margin-top: 49px;
+}
 .desenvolvedoras h2 {
   text-align: center;
   margin: 0 10px;
@@ -112,7 +115,7 @@ div.desenv1_e_2 > section {
   max-height: 340px;
   border-radius: 20px;
   max-width: 33%;
-  padding-bottom: 76px;
+  padding-bottom: 106px;
 }
 .desenvolvedora1 h3{
   text-align: center;
@@ -202,12 +205,13 @@ div.desenv1_e_2 > section {
     width: 327px;
     height: 211px;
   }
+}
   @media screen and (min-width: 555px) and (max-width: 650px){
   .img_ganhadores {
     margin-left: 17%!important;
   }
 }
-}@media screen and (max-width: 411px){
+@media screen and (max-width: 411px){
   .img_desenv {
     margin: 0 11%;
   }
